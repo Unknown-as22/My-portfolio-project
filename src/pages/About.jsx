@@ -1,4 +1,14 @@
 import React from "react";
+import Man from "../assets/Picflow Images Mar 8/Man.webp";
+import Html from "../assets/Picflow Images Mar 8/Html.webp";
+import CSS from "../assets/Picflow Images Mar 8/CSS.webp";
+import Javascript from "../assets/Picflow Images Mar 8/Javascript.webp";
+import Figma from "../assets/Picflow Images Mar 8/Figma.webp";
+import Bootstrap from "../assets/Picflow Images Mar 8/Bootstrap.webp";
+import GitHub from "../assets/Picflow Images Mar 8/GitHub.webp";
+import ReactJS from "../assets/Picflow Images Mar 8/React JS.webp";
+import Tailwind from "../assets/Picflow Images Mar 8/Tailwind.webp";
+
 
 function About() {
   return (
@@ -52,7 +62,7 @@ function About() {
             {/* image part */}
             <div className="flex h-130 w-full flex-col items-center justify-end">
               <img
-                src="src/assets/Man.png"
+                src={Man}
                 alt="Man pic"
                 className="h-120 w-90"
               />
@@ -73,28 +83,28 @@ function About() {
           <div className="mb-10 flex h-80 w-100 flex-wrap items-center justify-center gap-10 lg:mb-0 lg:h-50 lg:w-300">
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/Html.webp"
+                src={Html}
                 alt="html"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/CSS.webp"
+                src={CSS}
                 alt="css"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/Javascript.webp"
+                src={Javascript}
                 alt="javascript"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/Bootstrap.webp"
+                src={Bootstrap}
                 alt="bootstrap"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
@@ -106,28 +116,28 @@ function About() {
           <div className="flex h-80 w-100 flex-wrap items-center justify-center gap-10 lg:h-50 lg:w-300">
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/Figma.webp"
+                src={Figma}
                 alt="figma"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/GitHub.webp"
+                src={GitHub}
                 alt="github"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/React JS.webp"
+                src={ReactJS}
                 alt="reactjs"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
             </div>
             <div className="h-30 w-30 rounded-2xl bg-white">
               <img
-                src="src\assets\Picflow Images Mar 8/Tailwind.webp"
+                src={Tailwind}
                 alt="tailwind"
                 className="h-full w-full rounded-2xl shadow-[#A78BFA] duration-700 hover:shadow-xl"
               />
