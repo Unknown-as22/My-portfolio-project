@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
-import Man from "../assets/Man.png";
+import Man from "../assets/Picflow Images Mar 8/Man.webp";
 import figma from "../assets/Picflow Images Mar 9/figma-brands-solid.webp";
 import code from "../assets/Picflow Images Mar 9/code-solid.webp";
 import light from "../assets/Picflow Images Mar 9/lightbulb-regular.webp";
