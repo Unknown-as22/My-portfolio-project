@@ -47,7 +47,7 @@ function Navbar() {
 
         {/* Desktop View Nav  */}
 
-        <ul className="hidden gap-4 text-xl lg:flex text-[#ffffff] ">
+        <ul className="hidden gap-4 text-xl lg:flex text-gray-300 lg:gap-15 font-bold lg:mr-20 ">
           <li>
             <NavLink to="/" className={({isActive}) => isActive ? "text-[#A78BFA]" : "text-[#ffffff] hover:text-[#A78BFA] transform duration-300" }>Home</NavLink>
           </li>
