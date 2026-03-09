@@ -65,7 +65,7 @@ function Home() {
             <div className="relative h-110 w-85 rounded-4xl bg-[#A78BFA] blur-md lg:h-120 lg:w-100"></div>
             <div className="absolute">
               <img
-                src="src/assets/Man.png"
+                src="D:\My Project\portfolio\src\assets\Man.png"
                 alt="Man image"
                 className="h-100 w-80 rounded-3xl lg:h-120 lg:w-90 lg:rounded-4xl"
               />
@@ -78,7 +78,7 @@ function Home() {
         <section className="my-60 flex h-200 w-full flex-col items-center justify-center gap-10 lg:mx-20 lg:flex lg:h-100 lg:flex-row lg:gap-30">
           <div className="flex h-65 w-75 flex-col justify-center rounded-3xl bg-gray-500 pl-3 shadow-gray-400 duration-500 hover:shadow-2xl">
             <img
-              src="src/assets/Picflow Images Mar 9/figma-brands-solid.webp"
+              src="D:\My Project\portfolio\src\assets\Picflow Images Mar 9\figma-brands-solid.webp"
               alt="figma"
               className="h-18 w-18"
             />
@@ -93,7 +93,7 @@ function Home() {
           </div>
           <div className="flex h-65 w-75 flex-col justify-center rounded-3xl bg-gray-500 pl-3 shadow-gray-400 duration-500 hover:shadow-2xl">
             <img
-              src="src/assets/Picflow Images Mar 9/code-solid.webp"
+              src="D:\My Project\portfolio\src\assets\Picflow Images Mar 9\code-solid.webp"
               alt="code"
               className="h-15 w-15"
             />
@@ -108,7 +108,7 @@ function Home() {
           </div>
           <div className="flex h-65 w-75 flex-col justify-center rounded-3xl bg-gray-500 pl-3 shadow-gray-400 duration-500 hover:shadow-2xl">
             <img
-              src="src/assets/Picflow Images Mar 9/lightbulb-regular.webp"
+              src="D:\My Project\portfolio\src\assets\Picflow Images Mar 9\lightbulb-regular.webp"
               alt="lightbulb"
               className="h-18 w-18"
             />
